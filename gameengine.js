@@ -56,6 +56,7 @@ class GameEngine {
             this.click = getXandY(e);
         });
 
+
         this.ctx.canvas.addEventListener("wheel", e => {
             if (this.options.debugging) {
                 console.log("WHEEL", getXandY(e), e.wheelDelta);
